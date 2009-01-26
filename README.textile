@@ -5,3 +5,20 @@ p. Unbotrusive Javascript that can spell out words using the Nato Phonetic Alpha
 p. It looks for the DOM elements with class "spell" and attaches a click event handler to those elements. When on click it adds a span containing the words.
 
 p. This script requires "prototype.js":http://www.prototypejs.org framework version 1.6.2.
+
+h2. Test here
+
+<notextile>
+	<script>
+		jQuery.noConflict();
+	</script>
+	<script src="http://www.google.com/jsapi"></script>
+	<script type="text/javascript">
+		google.load("prototype", "1.6");
+	</script>
+	<script type="text/javascript" src="phonetic.js"></script>
+</notextile>
+
+p. To test click on the following word:
+
+p(spell). CWSL-WRPG-JR3T-3WWL
