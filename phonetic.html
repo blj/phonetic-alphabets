@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>
+			Test Phonetic Alphabet
+		</title>
+		<script src="http://www.google.com/jsapi"></script>
+		
+		<script type="text/javascript">
+			google.load("prototype", "1.6");
+		</script>
+		<script type="text/javascript" src="phonetic.js"></script>
+		<style type="text/css">
+/*<![CDATA[*/
+		span.spell{font-size:xx-large;}
+		span.phonetics {line-height:2em; display:block;}
+		span.phonetics span{margin-right:1em; background-color: #ffb;}
+		/*]]>*/
+		</style>
+	</head>
+	<body>
+		<h1>Phonetic Alphabets</h1>
+		<p>These are the phonetic alphabets used particularly by radio operators to spell out words. This script uses the <a href="http://www.bckelk.ukfsn.org/menu.html">NATO phonetic alphabet</a>.</p>
+		<h2>Usage:</h2>
+		<ol>
+		<li>Any word that need to be spelt should be marked with a class "spell"
+		<pre>
+&lt;p&gt;
+	Spell this word: &lt;span class=&quot;spell&quot;&gt;CWSL-WRPG-JR3T-3WWL&lt;/span&gt;
+&lt;/p&gt;
+		</pre></li>
+		<li>Attach <a href="http://www.prototypejs.org/">prototype.js javascript framework</a></li>
+		<li>Attach the script <a href="phonetic.js">phonetic.js</a> to the page and you are done.</li>
+		</ol>
+		<h2>Try</h2>
+		<p>
+			Click this word: <span class="spell">CWSL-WRPG-JR3T-3WWL</span>
+		</p>
+		<p>
+			Another word: <span class="spell">JHRM-KJRN-EA3G-9DF3</span>
+		</p>
+	</body>
+</html>
