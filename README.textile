@@ -1,0 +1,7 @@
+h1. Phonetic.js
+
+p. Unbotrusive Javascript that can spell out words using the Nato Phonetic Alphabet
+
+p. It looks for the DOM elements with class "spell" and attaches a click event handler to those elements. When on click it adds a span containing the words.
+
+p. This script requires "prototype.js":http://www.prototypejs.org framework version 1.6.2.
